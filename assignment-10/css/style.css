@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Marck+Script|Merriweather&display=swap');
+
+font-family: 'Merriweather', serif;
+font-family: 'Gloria Hallelujah', serif;
+font-family: 'Marck Script', cursive;
+background{
+  background-color: #BBDEFB
+}
+body {
+   background-color: #BBDEFB  ;
+   font-family: 'Arvo', serif;
+}
+
+section {
+   width: 300px;
+   background-color: white;
+   border-radius: 25px;
+   padding: 20px;
+   padding-bottom: 40px;
+   margin: auto;
+   margin-bottom: -170px;
+}
+
+i {
+  font-family: 'Marck Script', cursive;
+font-size: 20px;
+font-weight: 200;
+}
+
+h1 {
+   color: #E53935;
+   text-align: center !important;
+   font-family: 'Merriweather', serif;
+}
+
+p {
+   color: rgb(51, 51, 51);
+   font-size: 14px;
+}
+
+b {
+    font-family: 'Gloria Hallelujah', serif;
+   font-weight: 600;
+}
+a:visited {
+  color: purple;
+}
+
+a:hover {
+color: green;}
+
+a:link {
+   color: #79AF33;
+   text-decoration: none;
+}
