@@ -1,0 +1,43 @@
+#canvas {
+  width: 1500px;
+  height: 300px;
+  background-color: black;
+  border: 15px solid #E1DEDB;
+  padding: 300px 1500px;
+  margin: 0em;
+  display: inline;
+  position: relative;
+
+
+}
+}
+.block1 {
+   width: 300px;
+   height: 300px;
+   background-color: #0E2AB8;
+   display: inline;
+}
+.block2 {
+   width: 300px;
+   height: 300px;
+   background-color: #0EB822;
+   display: inline;
+}
+.block3 {
+   width: 300px;
+   height: 300px;
+   background-color: #F8D225;
+   display: inline;
+}
+.block4 {
+   width: 300px;
+   height: 300px;
+   background-color: #FFA924;
+   display: inline;
+}
+.block5 {
+   width: 300px;
+   height: 300px;
+   background-color: #B80E0E;
+   display: inline;
+}
