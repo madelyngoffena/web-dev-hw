@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif|Playfair+Display&display=swap');
+header {
+    background-color: #D8BFD8;
+    font-family: sans-serif;
+    font-size: 10pt;
+    text-transform: uppercase;
+    margin: 0;
+    height: 2.15em;
+    text-align: right;
+}
+
+.menu-item {
+    display: center;
+    margin: 0 0;
+    min-width: 8em;
+    text-align: center;
+    background-color: #BA55D3;
+    padding: .5em 0;
+}
+
+/* Style the links: */
+.menu-item a {
+    color: #fff;
+    text-decoration: none;
+}
+.menu-item:hover {
+    background-color: #1CCDCA;
+}
+
+/* Add a dropdown feature: */
+.dropdown {
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    border: 1px solid #000;
+    margin: 0;
+    margin-top: 0.5em;
+    color: #000;
+    background-color: #7FFFD4;
+    z-index: 1;
+}
+.dropdown-content a {
+    color: #000;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-item {
+    display: block;
+    text-align: center;
+    margin: 0;
+    padding: 0.5em;
+    min-width: 7em;
+}
+.dropdown-item:hover, .dropdown-item:hover a {
+    color: white;
+    background-color: #40E0D0;
+}
+a:visited {
+  background-color: #00CED1;
+  text-decoration: none;
+}
+.forms {
+  text-align: center;
+  font-family: 'Noto Serif', serif;
+}
+body {
+  background-color: #F0F8FF;
+font-family: 'Noto Serif', serif;
+}
+h1 {
+  text-align: center;
+font-family: 'Playfair Display', serif;
+}
+section {
+   width: 900px;
+   background-color: white;
+   border-radius: 25px;
+   padding: 20px;
+   padding-bottom: 40px;
+   margin: auto;
+   margin-bottom: 50px;
+   margin-top: 50px;
+}
+img {
+  align-items: center;
+
+}
