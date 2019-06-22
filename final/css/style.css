@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Roboto+Slab&display=swap');
+
+.box {
+  width: 300px;
+  height: 500px;
+  background-color: #F0F8FF;
+  border: 15px solid black;
+  padding: 20px;
+  margin-top: 15em;
+  align-items: right;
+  position: relative;
+}
+
+.box2 {
+  width: 300px;
+  height: 500px;
+  background-color: black;
+  border: 15px solid grey;
+  padding: 20px;
+  margin-top: 15em;
+  align-items: right;
+  position: relative;
+
+}
+header {
+    background-color: #D8BFD8;
+    font-family: sans-serif;
+    font-size: 10pt;
+    text-transform: uppercase;
+    margin: 0;
+    height: 2.15em;
+    text-align: right;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.menu-item {
+    display:inline;
+    margin: 0 0;
+    min-width: 8em;
+    text-align: center;
+    background-color: #BA55D3;
+    padding: .5em 0;
+}
+.menu-item a {
+    color: #fff;
+    text-decoration: none;
+}
+.menu-item:hover {
+    background-color: #1CCDCA;
+}
+
+.dropdown {
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    border: 1px solid #000;
+    margin: 0;
+    margin-top: 0.5em;
+    color: #000;
+    background-color: #7FFFD4;
+    z-index: 1;
+}
+.dropdown-content a {
+    color: #000;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-item {
+    display: block;
+    text-align: center;
+    margin: 0;
+    padding: 0.5em;
+    min-width: 7em;
+}
+.dropdown-item:hover, .dropdown-item:hover a {
+    color: white;
+    background-color: #40E0D0;
+}
+
+h1{
+  text-align: center;
+}
+body{
+  background-color: #F5F5F5;
+font-family: 'Roboto Slab', serif;}
+
+.video{
+  width: 650px;
+  height: 576px;
+  background-color: #F0F8FF;
+  border: 15px solid black;
+  padding: 5px;
+  margin-top: 15em;
+  align-items: right;
+  position: relative;
+}
+}
+.forms {
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+}
